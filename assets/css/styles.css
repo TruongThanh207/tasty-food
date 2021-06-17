@@ -335,3 +335,35 @@ img {
 }
 
 /*=====  End of ABOUT  ======*/
+
+/*=============================================
+=            SERVICES            =
+=============================================*/
+
+.services__container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services__content {
+  text-align: center;
+}
+
+.services__img {
+  width: 64px;
+  height: 64px;
+  fill: var(--first-color);
+  margin-bottom: var(--mb-2);
+}
+
+.services-title {
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
+}
+
+.services-description {
+  padding: 0 1.5rem;
+}
+
+/*=====  End of SERVICES  ======*/
