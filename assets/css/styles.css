@@ -122,7 +122,8 @@ img {
   padding: 4rem 0 2rem;
 }
 
-.section-title .section-subtitle {
+.section-title,
+.section-subtitle {
   text-align: center;
 }
 
@@ -314,3 +315,23 @@ img {
 }
 
 /*=====  End of HEADER  ======*/
+
+/*=============================================
+=            ABOUT            =
+=============================================*/
+
+.about {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: var(--mb-3);
+}
+
+.about__img {
+  width: 280px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+
+/*=====  End of ABOUT  ======*/
